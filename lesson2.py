@@ -44,20 +44,14 @@ print(f"{num:.2f}") # f for float
 # store the final amount in a variable
 # print it like "___ USD is the same as ___ CAD".
 # round to 2 decimal places
-rmb = usd*conversion_factor
 usd = float(input("Enter an amount of USD to convert into RMB: "))
 conversion_factor = 7.01
+rmb = usd*conversion_factor
 rounded_rmb = round(rmb,2)
-print(f"{usd}USD is the same as {rounded_rmb}RMB")
+print(f"{usd} USD is the same as {rounded_rmb} RMB")
 
 # string methods
 name = "lee cat"
 print(name.upper())
 print(name.title())
-<<<<<<< HEAD
 print(name.lower())
-
-print("Hello world")
-=======
-print(name2.lower())
->>>>>>> 63e20bc5ba1506d6fae891a13280bf0828065809
