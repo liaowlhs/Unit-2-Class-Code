@@ -54,6 +54,10 @@ print(f"{usd}USD is the same as {rounded_rmb}RMB")
 name = "lee cat"
 print(name.upper())
 print(name.title())
+<<<<<<< HEAD
 print(name.lower())
 
 print("Hello world")
+=======
+print(name2.lower())
+>>>>>>> 63e20bc5ba1506d6fae891a13280bf0828065809
