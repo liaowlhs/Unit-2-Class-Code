@@ -22,3 +22,5 @@ serving_three = ounces_three*servings
 print(f"{ingredient_one}: {serving_one:.1f} ounces.")
 print(f"{ingredient_two}: {serving_two:.1f} ounces.")
 print(f"{ingredient_three}: {serving_three:.1f} ounces.")
+
+#why is not not commiting

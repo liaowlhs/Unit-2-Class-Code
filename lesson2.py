@@ -55,3 +55,5 @@ name = "lee cat"
 print(name.upper())
 print(name.title())
 print(name.lower())
+
+print("Hello world")
